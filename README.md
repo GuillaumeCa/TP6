@@ -49,11 +49,17 @@ public static void parcoursAleatoire2(ArbreBinaire a) {
   int rr = r.nextInt()%3;
   if (a != null) {
     if (rr == 0) {
-      System.out.println(a.name); parcoursAleatoire2(a.filsDroit); parcoursAleatoire2(a.filsGauche);
+      System.out.println(a.name); 
+      parcoursAleatoire2(a.filsDroit); 
+      parcoursAleatoire2(a.filsGauche);
     } else if (rr == 1) {
-      parcoursAleatoire2(a.filsDroit);  System.out.println(a.name); parcoursAleatoire2(a.filsGauche);
+      parcoursAleatoire2(a.filsDroit);  
+      System.out.println(a.name); 
+      parcoursAleatoire2(a.filsGauche);
     } else {
-      parcoursAleatoire2(a.filsDroit); parcoursAleatoire2(a.filsGauche); System.out.println(a.name);
+      parcoursAleatoire2(a.filsDroit); 
+      parcoursAleatoire2(a.filsGauche); 
+      System.out.println(a.name);
     }
   }
 }
