@@ -3,6 +3,7 @@
 ## 3.1 Parcours en profondeur
 
 **Pour l'arbre de la fig 2**
+
 1. *Préfixé* : On parcours A en premier puis B et C.
 2. *Postfixé* : On parcours B et C en premier puis A.
 3. *Infixé* : On parcours B puis A puis C.
