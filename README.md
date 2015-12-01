@@ -59,7 +59,7 @@ public static void parcoursAleatoire2(ArbreBinaire a) {
 }
 ```
 
-1. ``abdeghcf``, ``abegdhcf`` et ``bdehgafc`` sont des sorties impossibles car les lettres autour de ``a`` correspondent à un parcours de la branche de gauche puis la branche de droite.
+1. ``abdeghcf``, ``abegdhcf`` et ``bdehgafc`` sont des sorties impossibles car les lettres autour de ``a`` correspondent à un parcours de la branche de gauche puis de la branche de droite.
 2.  ``cfbdegha``, ``acfbdegh`` et ``cfbdegha``  sont des sorties impossibles car le parcours n'est pas fait de droite à gauche.
 3. ``cfhgeabd`` et ``fchgdbea`` sont des sorties impossibles car un enfant et ses enfants peuvent uniquement se trouver d'un côté ou de l'autre du parent.
 
